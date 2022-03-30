@@ -1,3 +1,0 @@
-C:/Users/aamereller/Development/30002_ANDi/Trainings.SW_Dev/cpp/training1/build/CMakeFiles/training1.dir
-C:/Users/aamereller/Development/30002_ANDi/Trainings.SW_Dev/cpp/training1/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/aamereller/Development/30002_ANDi/Trainings.SW_Dev/cpp/training1/build/CMakeFiles/ZERO_CHECK.dir
