@@ -6,8 +6,8 @@
 namespace training2
 {
     class SharedClass;
-    std::shared_ptr<SharedClass> SharedClass_p;
-    std::shared_ptr<const SharedClass> SharedClass_c;
+    typename std::shared_ptr<SharedClass> SharedClass_p;
+    typename std::shared_ptr<const SharedClass> SharedClass_c;
 
     class SharedClass
     {
@@ -23,6 +23,16 @@ namespace training2
 
         SharedClass_p self();
     };
+
+    void methid()
+    {
+        SharedClass *raw = new SharedClass();
+        SharedClass_p ptr(raw);
+        SharedClass_p ptr2(ptr);
+        SharedClass_p ptr3(raw);
+        ..
+        
+    }
 }
 
 #endif //SHARED_POINTERS_H
